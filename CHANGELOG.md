@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 - 2026-10-30
+
+- Generated test skeletons hardened after live run against a real plugin copy.
+
 ## 0.1.0 - 2026-10-29
 
 - Initial release: SKILL.md parsing (frontmatter, steps, referenced

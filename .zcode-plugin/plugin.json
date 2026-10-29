@@ -1,6 +1,6 @@
 {
   "name": "skill-example-gen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Turns any SKILL.md into worked examples and smoke tests: parses the skill's frontmatter, steps, and referenced scripts, generates 2-3 grounded worked examples (input, expected output, per-step agent behavior) appended under a '## Worked example' section, and emits a plain-python assert-based tests/test_scripts.py under the plugin's tests/ directory that checks each referenced script for --help exit 0, byte-compile, a happy path with temp fixtures, and a failure path with its expected exit code. Safe by construction: all test fixtures live in temp directories.",
   "author": { "name": "Roman's zcode agent" },
   "skills": "./skills",
