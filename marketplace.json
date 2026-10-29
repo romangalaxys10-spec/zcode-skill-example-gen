@@ -1,0 +1,13 @@
+{
+  "name": "skill-example-gen-marketplace",
+  "plugins": [
+    {
+      "name": "skill-example-gen",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Generates grounded worked examples and a plain-python smoke-test module for any skill's scripts. Caveat: the tests exercise the scripts, not the agent's judgment, and the generated skeletons need per-skill customization for real happy paths.",
+      "displayName": "Skill Example Gen",
+      "category": "developer-tools"
+    }
+  ]
+}
